@@ -43,7 +43,6 @@ I don't just use libraries; I understand how they work on the metal.
 | Project | Description | Impact |
 | :--- | :--- | :--- |
 | **FastInfer** | Custom CUDA inference backend for Llama-3.2 | **30.3 tokens/sec** on T4 GPU (Broken the 30TPS barrier) |
-| **cudf-lazy-split** | Fused kernel for string extraction | **160x Speedup** vs Standard cuDF implementation |
 | **Triton-Kernels** | Re-implementation of RMSNorm & MatMul | Benchmarking Python-based GPU programming vs Raw CUDA |
 | **Hy-LoRA** | Hybrid SVD-LoRA fine-tuning strategy | **51%** reduction in trainable params with minimal accuracy loss |
 
